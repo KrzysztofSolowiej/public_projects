@@ -7,3 +7,5 @@ I managed to collect metereological data from the wunderground.com website using
 Enjoy!
 
 You can check a working app at http://krsolowiej.pythonanywhere.com/
+
+The current annotations in Jupyter Notebook are in Polish, so beware.
