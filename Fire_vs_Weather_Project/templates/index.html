@@ -1,0 +1,17 @@
+<!doctype html>
+<body>
+<head><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500;600&display=swap" rel="stylesheet">
+  </head>
+<title>Simple prediction model based on a linear regression algorithm</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+<h1>Simple prediction model based on a linear regression algorithm</h1>
+<h2>Prediction results</h2> 
+<p>Average monthly temperature: {{temp}}</p>
+<p>Estimated number of fire department deployments: {{result}}</p>
+<footer>
+    <p>Author: Krzysztof Sołowiej<a href="mailto:krsolowiej@gmail.com">krsolowiej@gmail.com</a></p>
+    <p><a href="https://github.com/KrzysztofSolowiej/public_projects">https://github.com/KrzysztofSolowiej/public_projects</a></p>
+  </footer>
+</body>
