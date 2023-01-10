@@ -6,4 +6,4 @@ The model works on a linear regression algorithm from sklearn.
 I managed to collect metereological data from the wunderground.com website using Selenium.
 Enjoy!
 
-You can check a working app at krsolowiej.pythonaywhere.com
+You can check a working app at http://krsolowiej.pythonanywhere.com/

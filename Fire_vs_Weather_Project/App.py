@@ -17,19 +17,19 @@ def upload_data():
         label_pred = get_pred(np.array(avr_temp_C, dtype=float))
         return '''
         <!doctype html>
-        <title>Prosta predykcja z wykorzystaniem algorytmu regresji liniowej</title>
-        <h1>Prosta predykcja z wykorzystaniem algorytmu regresji liniowej</h1>
-        <p>Wyniki predykcji</p> 
-        <p>Średnia miesięczna temperatura: {}</p>
-        <p>Przewidywana liczba interwencji straży pożarnej: {} </p>
+        <title>Simple prediction model based on linear regression algorithm</title>
+        <h1>Simple prediction model based on linear regression algorithm</h1>
+        <p>Prediction results</p> 
+        <p>Average monthly temperature: {}</p>
+        <p>Estimated number of fire department deployments: {} </p>
         '''.format(escape(avr_temp_C), escape(np.round(np.exp(label_pred))))
 
         
     return '''
     <!doctype html>
-    <title>Prosta predykcja z wykorzystaniem algorytmu regresji liniowej</title>
-    <h1>Prosta predykcja z wykorzystaniem algorytmu regresji liniowej</h1>
-    <p>Wprowadź średnią miesięczną temperaturę</p>
+    <title>Simple prediction model based on linear regression algorithm</title>
+    <h1>Simple prediction model based on linear regression algorithm</h1>
+    <p>Enter the average monthly temperature</p>
     <form method=post enctype=multipart/form-data>
       <p><input type="number" name="avr_temp_C">
          <input type=submit value="OK">
