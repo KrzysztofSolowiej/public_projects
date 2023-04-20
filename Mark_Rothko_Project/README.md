@@ -1,4 +1,4 @@
-# Semantic segmentation project
+# Semantic segmentation project with TensorFlow
 
 The project is an implementation of the Mask R-CNN algorithm aimed to detect and segment rectangular shapes in paintings of Mark Rothko.
 
